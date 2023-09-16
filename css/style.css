@@ -359,7 +359,6 @@ header {
 
   .section__title--about {
     grid-area: title;
-    
   }
 
   .section__subtitle--about {
@@ -375,6 +374,8 @@ header {
 
   .about-me__img {
     grid-area: img;
+    position: relative;
+    z-index: 2;
   }
 }
 /* My Work */
@@ -406,7 +407,7 @@ header {
   transform: scale(1.2);
 }
 .todo-link {
-    color: var(--clr-accent)
+  color: var(--clr-accent);
 }
 /* footer */
 
